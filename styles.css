@@ -1,0 +1,65 @@
+    .wrapper {
+        max-width: 100%;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    .firstSection {
+        display: flex;
+        justify-content: center;
+        column-gap: 110px;
+        margin: 40px;
+        /* padding: 100px; */
+    }
+    
+    .first {
+        position: relative;
+        max-width: 25%;
+    }
+    
+    .imagesection {
+        display: flex;
+    }
+    
+    .sectionHead {
+        position: relative;
+        margin-left: 290px;
+        margin-bottom: 90px;
+        font-weight: bold;
+        font-size: 25px;
+        font-family: Poppins;
+    }
+    
+    .secondhead {
+        font-size: 60px;
+    }
+    
+    p {
+        font-size: 29px;
+    }
+    
+    img {
+        width: 450px;
+        height: 440px;
+        object-fit: cover;
+    }
+    
+    .firstheading {
+        position: absolute;
+        margin-top: 114px;
+        font-weight: bold;
+        font-size: 20px;
+    }
+    
+    .firstheading:hover {
+        cursor: pointer;
+        opacity: .65;
+        transition: all 100ms ease-in;
+    }
+    
+    span {
+        position: absolute;
+        margin-left: 20px;
+        top: 1px;
+    }
